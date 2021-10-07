@@ -1,0 +1,13 @@
+
+.form__bg{
+    margin-bottom: 70px;
+    padding: 20px 10px;
+    background-color: rgb(147 107 232 / 5%);
+    box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
+}
+.form__bg button{
+    margin-bottom: 20px;
+}
+.form-group{
+color: black;
+}

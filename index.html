@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Xuân Quang</title>
+    <!-- BS4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Main css  -->
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+     <div class="container">
+        <div class="w-50 m-auto">
+            <div class="bai1 form__bg">
+                <h2 class="text-center">Tính tính tiền lương nhân viên</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="luongNgay">Lương một ngày:</label>
+                        <input type="number" class="form-control" id="luongNgay">
+                    </div>
+                    <div class="form-group">
+                        <label for="ngayLam">Số ngày làm trong tháng:</label>
+                        <input type="number" class="form-control" id="ngayLam">
+                    </div>
+                    <button type="button" id="btnLuong" class="btn btn-info">Tính Lương tháng</button>
+                    <p id="txtLuong">Lương Tháng:</p>
+                </form>
+            </div>
+
+            <div class="bai2 form__bg">
+                <h2 class="text-center">Tính giá trị trung bình</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="num1">Số thứ 1:</label>
+                        <input type="number" class="form-control" id="num1">
+                    </div>
+                    <div class="form-group">
+                        <label for="num2">Số thứ 2:</label>
+                        <input type="number" class="form-control" id="num2">
+                    </div>
+                    <div class="form-group">
+                        <label for="num3">Số thứ 3:</label>
+                        <input type="number" class="form-control" id="num3">
+                    </div>
+                    <div class="form-group">
+                        <label for="num4">Số thứ 4:</label>
+                        <input type="number" class="form-control" id="num4">
+                    </div>
+                    <div class="form-group">
+                        <label for="num5">Số thứ 5:</label>
+                        <input type="number" class="form-control" id="num5">
+                    </div>
+                    <button type="button" id="btnTrungBinh" class="btn btn-info">Tính trung bình</button>
+                    <p id="txtTrungBinh">Giá trị trung bình:</p>
+                </form>
+            </div>
+
+            <div class="bai3 form__bg">
+                <h2 class="text-center">Quy đổi tiền</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="soUSD">Số tiền USD: </label>
+                        <input type="number" class="form-control" id="soUSD">
+                    </div>
+                    <button type="button" id="btnVND" class="btn btn-info">Quy đổi</button>
+                    <p id="txtVND">Số tiền VND: </p>
+                </form>
+            </div>
+
+            <div class="bai4 form__bg">
+                <h2 class="text-center">Tính diện tích, chu vi hình chữ nhật</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="length">Chiều dài:</label>
+                        <input type="number" class="form-control" id="length">
+                    </div>
+                    <div class="form-group">
+                        <label for="width">Chiều rộng:</label>
+                        <input type="number" class="form-control" id="width">
+                    </div>
+                    <button type="button" id="btnTinh" class="btn btn-info">Tính toán</button>
+                    <div class="form-group">
+                        <label for="area">Diện tích:</label>
+                        <input type="number" class="form-control" id="area">
+                        <br>
+                        <label for="perimeter">Chu vi:</label>
+                        <input type="number" class="form-control" id="perimeter">
+                    </div>
+                </form>
+            </div>
+
+            <div class="bai5 form__bg">
+                <h2 class="text-center">Tính tổng hai ký số</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="number">Nhập số có hai chữ số: </label>
+                        <input type="number" class="form-control" id="number">
+                    </div>
+                    <button type="button" id="btnSum" class="btn btn-info">Tính Tổng</button>
+                    <p id="txtSum">Tổng hai ký số: </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- BS4  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- Main js  -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
